@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #fafafa;
-  color: #272343;
+  background-color: #292524;
+  color: #fafaf9;
   font-family: "Sono", sans-serif;
   padding: 48px 64px;
 }
@@ -26,16 +26,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.fact-form {
-  background-color: #bae8e8;
-  margin-bottom: 40px;
-  padding: 16px 32px;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  border-radius: 16px;
 }
 
 .main {
@@ -78,14 +68,15 @@ h1 {
 .fact {
   font-size: 20px;
   line-height: 1.4;
-  background-color: #bae8e8;
+  background-color: #44403c;
   margin-bottom: 16px;
   padding: 16px 24px;
   letter-spacing: -1px;
+  border-radius: 16px;
+
   display: flex;
   align-items: center;
   gap: 24px;
-  border-radius: 16px;
 }
 
 @media (max-width: 1200px) {
@@ -116,7 +107,7 @@ h1 {
 
 .vote-buttons button {
   border: none;
-  background-color: #fafafa;
+  background-color: #78716c;
   font-size: 18px;
   padding: 6px 12px;
   border-radius: 100px;
@@ -128,7 +119,7 @@ h1 {
 }
 
 .vote-buttons button:hover {
-  background-color: #e7f5f4;
+  background-color: #292524;
 }
 
 ul {
@@ -137,7 +128,7 @@ ul {
 
 .source:link,
 .source:visited {
-  color: #a09a97;
+  color: #a8a29e;
   text-decoration: none;
   margin-left: 12px;
   transition: 0.3s;
@@ -165,28 +156,37 @@ ul {
 .btn:hover {
   transform: scale(110%) rotate(-2deg);
 }
+
 .btn-large {
   font-size: 20px;
   padding: 20px 32px 17px;
-  color: #fafafa;
 }
 
 .btn-all-categories {
   margin-bottom: 16px;
   width: 100%;
-  color: #fafafa;
 }
 
 .btn-category {
   width: 100%;
   background-image: none;
-  color: #fafafa;
+}
+
+/* FORM */
+.fact-form {
+  background-color: #44403c;
+  margin-bottom: 40px;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-radius: 16px;
 }
 
 .fact-form input,
 .fact-form select {
   width: 220px;
-  background-color: #e3f6f5;
+  background-color: #78716c;
   border: none;
   border-radius: 100px;
   padding: 16px;
@@ -196,7 +196,7 @@ ul {
 }
 
 .fact-form input::placeholder {
-  color: #a09a97;
+  color: #a8a29e;
 }
 
 .fact-form input:first-child {
