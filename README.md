@@ -1,6 +1,10 @@
 # Fact-or-Cap Application
 
-"Fact or Cap" is a fullstack application that allows users to create, display and vote on facts(or false facts) that are placed in categories.
+"Fact or Cap" is a fullstack application that allows users to create, display and vote on facts(or false facts)!
+
+## Live Demo w/ Netlify
+
+https://factorcap.netlify.app/
 
 ## Tech Stack
 
@@ -45,7 +49,3 @@ To build the app for production, run the command below:
 ```bash
   npm run build
 ```
-
-## Live Demo w/ Netlify
-
-https://factorcap.netlify.app/
