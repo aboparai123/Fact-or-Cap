@@ -16,7 +16,7 @@ body {
 }
 
 /* MAIN LAYOUT */
-.container {
+#root {
   max-width: 1500px;
   margin: 0 auto;
 }
@@ -120,6 +120,10 @@ h1 {
 
 .vote-buttons button:hover {
   background-color: #292524;
+}
+
+.vote-buttons button:disabled {
+  background-color: #44403c;
 }
 
 ul {
